@@ -19,8 +19,8 @@ def load(input_data):
 
 
 if __name__ == "__main__":
-    level, quests = 5, 1
-    input_eqs = ["8+3=-1", "3-8=5"]
+    level, quests = 6, 2
+    input_eqs = ["9+8=14", "14+9=11", "98-60=-22"]
     for q in range(0, quests + 1):
 
         fileextension = '/level{0}/level{0}_{1}.in'.format(level, q)
